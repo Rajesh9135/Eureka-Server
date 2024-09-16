@@ -1,0 +1,90 @@
+2022-09-08 10:06:52,469 INFO c.a.d.DiscoveryAcmpApplication [restartedMain] Starting DiscoveryAcmpApplication using Java 11.0.15 on Pavnesh-Saini with PID 22264 (C:\Eclipse\acmp_workspace\discovery-acmp\target\classes started by Pavnesh Saini in C:\Eclipse\acmp_workspace\discovery-acmp)
+2022-09-08 10:06:52,470 DEBUG c.a.d.DiscoveryAcmpApplication [restartedMain] Running with Spring Boot v2.7.3, Spring v5.3.22
+2022-09-08 10:06:52,470 INFO c.a.d.DiscoveryAcmpApplication [restartedMain] The following 1 profile is active: "uat"
+2022-09-08 10:06:54,019 ERROR c.n.e.r.PeerAwareInstanceRegistryImpl [restartedMain] Cannot shutdown ReplicaAwareInstanceRegistry
+java.lang.NullPointerException: null
+	at com.netflix.eureka.registry.PeerAwareInstanceRegistryImpl.shutdown(PeerAwareInstanceRegistryImpl.java:176) ~[eureka-core-1.10.17.jar:1.10.17]
+	at jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method) ~[?:?]
+	at jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62) ~[?:?]
+	at jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43) ~[?:?]
+	at java.lang.reflect.Method.invoke(Method.java:566) ~[?:?]
+	at org.springframework.beans.factory.support.DisposableBeanAdapter.invokeCustomDestroyMethod(DisposableBeanAdapter.java:319) ~[spring-beans-5.3.22.jar:5.3.22]
+	at org.springframework.beans.factory.support.DisposableBeanAdapter.destroy(DisposableBeanAdapter.java:253) ~[spring-beans-5.3.22.jar:5.3.22]
+	at org.springframework.beans.factory.support.DefaultSingletonBeanRegistry.destroyBean(DefaultSingletonBeanRegistry.java:587) ~[spring-beans-5.3.22.jar:5.3.22]
+	at org.springframework.beans.factory.support.DefaultSingletonBeanRegistry.destroySingleton(DefaultSingletonBeanRegistry.java:559) ~[spring-beans-5.3.22.jar:5.3.22]
+	at org.springframework.beans.factory.support.DefaultListableBeanFactory.destroySingleton(DefaultListableBeanFactory.java:1163) ~[spring-beans-5.3.22.jar:5.3.22]
+	at org.springframework.beans.factory.support.DefaultSingletonBeanRegistry.destroySingletons(DefaultSingletonBeanRegistry.java:520) ~[spring-beans-5.3.22.jar:5.3.22]
+	at org.springframework.beans.factory.support.DefaultListableBeanFactory.destroySingletons(DefaultListableBeanFactory.java:1156) ~[spring-beans-5.3.22.jar:5.3.22]
+	at org.springframework.context.support.AbstractApplicationContext.destroyBeans(AbstractApplicationContext.java:1106) ~[spring-context-5.3.22.jar:5.3.22]
+	at org.springframework.context.support.AbstractApplicationContext.refresh(AbstractApplicationContext.java:596) ~[spring-context-5.3.22.jar:5.3.22]
+	at org.springframework.boot.web.servlet.context.ServletWebServerApplicationContext.refresh(ServletWebServerApplicationContext.java:147) ~[spring-boot-2.7.3.jar:2.7.3]
+	at org.springframework.boot.SpringApplication.refresh(SpringApplication.java:734) ~[spring-boot-2.7.3.jar:2.7.3]
+	at org.springframework.boot.SpringApplication.refreshContext(SpringApplication.java:408) ~[spring-boot-2.7.3.jar:2.7.3]
+	at org.springframework.boot.SpringApplication.run(SpringApplication.java:308) ~[spring-boot-2.7.3.jar:2.7.3]
+	at org.springframework.boot.SpringApplication.run(SpringApplication.java:1306) ~[spring-boot-2.7.3.jar:2.7.3]
+	at org.springframework.boot.SpringApplication.run(SpringApplication.java:1295) ~[spring-boot-2.7.3.jar:2.7.3]
+	at com.atpl.discovery.DiscoveryAcmpApplication.main(DiscoveryAcmpApplication.java:12) ~[classes/:?]
+	at jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method) ~[?:?]
+	at jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62) ~[?:?]
+	at jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43) ~[?:?]
+	at java.lang.reflect.Method.invoke(Method.java:566) ~[?:?]
+	at org.springframework.boot.devtools.restart.RestartLauncher.run(RestartLauncher.java:49) ~[spring-boot-devtools-2.7.3.jar:2.7.3]
+2022-09-08 10:07:45,811 INFO c.a.d.DiscoveryAcmpApplication [restartedMain] Starting DiscoveryAcmpApplication using Java 11.0.15 on Pavnesh-Saini with PID 10960 (C:\Eclipse\acmp_workspace\discovery-acmp\target\classes started by Pavnesh Saini in C:\Eclipse\acmp_workspace\discovery-acmp)
+2022-09-08 10:07:45,822 DEBUG c.a.d.DiscoveryAcmpApplication [restartedMain] Running with Spring Boot v2.7.3, Spring v5.3.22
+2022-09-08 10:07:45,822 INFO c.a.d.DiscoveryAcmpApplication [restartedMain] The following 1 profile is active: "uat"
+2022-09-08 10:07:51,075 INFO c.a.d.DiscoveryAcmpApplication [restartedMain] Started DiscoveryAcmpApplication in 6.144 seconds (JVM running for 7.796)
+2022-09-08 10:14:13,716 INFO c.a.d.DiscoveryAcmpApplication [restartedMain] Starting DiscoveryAcmpApplication using Java 11.0.15 on Pavnesh-Saini with PID 10960 (C:\Eclipse\acmp_workspace\discovery-acmp\target\classes started by Pavnesh Saini in C:\Eclipse\acmp_workspace\discovery-acmp)
+2022-09-08 10:14:13,717 DEBUG c.a.d.DiscoveryAcmpApplication [restartedMain] Running with Spring Boot v2.7.3, Spring v5.3.22
+2022-09-08 10:14:13,717 INFO c.a.d.DiscoveryAcmpApplication [restartedMain] The following 1 profile is active: "uat"
+2022-09-08 10:14:15,294 ERROR c.n.e.r.PeerAwareInstanceRegistryImpl [restartedMain] Cannot shutdown ReplicaAwareInstanceRegistry
+java.lang.NullPointerException: null
+	at com.netflix.eureka.registry.PeerAwareInstanceRegistryImpl.shutdown(PeerAwareInstanceRegistryImpl.java:176) ~[eureka-core-1.10.17.jar:1.10.17]
+	at jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method) ~[?:?]
+	at jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62) ~[?:?]
+	at jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43) ~[?:?]
+	at java.lang.reflect.Method.invoke(Method.java:566) ~[?:?]
+	at org.springframework.beans.factory.support.DisposableBeanAdapter.invokeCustomDestroyMethod(DisposableBeanAdapter.java:319) ~[spring-beans-5.3.22.jar:5.3.22]
+	at org.springframework.beans.factory.support.DisposableBeanAdapter.destroy(DisposableBeanAdapter.java:253) ~[spring-beans-5.3.22.jar:5.3.22]
+	at org.springframework.beans.factory.support.DefaultSingletonBeanRegistry.destroyBean(DefaultSingletonBeanRegistry.java:587) ~[spring-beans-5.3.22.jar:5.3.22]
+	at org.springframework.beans.factory.support.DefaultSingletonBeanRegistry.destroySingleton(DefaultSingletonBeanRegistry.java:559) ~[spring-beans-5.3.22.jar:5.3.22]
+	at org.springframework.beans.factory.support.DefaultListableBeanFactory.destroySingleton(DefaultListableBeanFactory.java:1163) ~[spring-beans-5.3.22.jar:5.3.22]
+	at org.springframework.beans.factory.support.DefaultSingletonBeanRegistry.destroySingletons(DefaultSingletonBeanRegistry.java:520) ~[spring-beans-5.3.22.jar:5.3.22]
+	at org.springframework.beans.factory.support.DefaultListableBeanFactory.destroySingletons(DefaultListableBeanFactory.java:1156) ~[spring-beans-5.3.22.jar:5.3.22]
+	at org.springframework.context.support.AbstractApplicationContext.destroyBeans(AbstractApplicationContext.java:1106) ~[spring-context-5.3.22.jar:5.3.22]
+	at org.springframework.context.support.AbstractApplicationContext.refresh(AbstractApplicationContext.java:596) ~[spring-context-5.3.22.jar:5.3.22]
+	at org.springframework.boot.web.servlet.context.ServletWebServerApplicationContext.refresh(ServletWebServerApplicationContext.java:147) ~[spring-boot-2.7.3.jar:2.7.3]
+	at org.springframework.boot.SpringApplication.refresh(SpringApplication.java:734) ~[spring-boot-2.7.3.jar:2.7.3]
+	at org.springframework.boot.SpringApplication.refreshContext(SpringApplication.java:408) ~[spring-boot-2.7.3.jar:2.7.3]
+	at org.springframework.boot.SpringApplication.run(SpringApplication.java:308) ~[spring-boot-2.7.3.jar:2.7.3]
+	at org.springframework.boot.SpringApplication.run(SpringApplication.java:1306) ~[spring-boot-2.7.3.jar:2.7.3]
+	at org.springframework.boot.SpringApplication.run(SpringApplication.java:1295) ~[spring-boot-2.7.3.jar:2.7.3]
+	at com.atpl.discovery.DiscoveryAcmpApplication.main(DiscoveryAcmpApplication.java:12) ~[classes/:?]
+	at jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method) ~[?:?]
+	at jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62) ~[?:?]
+	at jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43) ~[?:?]
+	at java.lang.reflect.Method.invoke(Method.java:566) ~[?:?]
+	at org.springframework.boot.devtools.restart.RestartLauncher.run(RestartLauncher.java:49) ~[spring-boot-devtools-2.7.3.jar:2.7.3]
+2024-08-12 18:23:13,810 INFO c.a.d.DiscoveryAcmpApplication [restartedMain] Starting DiscoveryAcmpApplication using Java 11.0.14 on DESKTOP-TQTSV5G with PID 17948 (D:\Work\Altruist\Unified\discovery-acmp\target\classes started by Rajesh in D:\Work\Altruist\Unified\discovery-acmp)
+2024-08-12 18:23:13,825 DEBUG c.a.d.DiscoveryAcmpApplication [restartedMain] Running with Spring Boot v2.7.3, Spring v5.3.22
+2024-08-12 18:23:13,827 INFO c.a.d.DiscoveryAcmpApplication [restartedMain] The following 1 profile is active: "uat"
+2024-08-12 18:23:22,462 INFO c.a.d.DiscoveryAcmpApplication [restartedMain] Started DiscoveryAcmpApplication in 10.02 seconds (JVM running for 11.631)
+2024-08-13 10:27:58,362 INFO c.a.d.DiscoveryAcmpApplication [restartedMain] Starting DiscoveryAcmpApplication using Java 11.0.14 on DESKTOP-TQTSV5G with PID 16028 (D:\Work\Altruist\Unified\discovery-acmp\target\classes started by Rajesh in D:\Work\Altruist\Unified\discovery-acmp)
+2024-08-13 10:27:58,382 DEBUG c.a.d.DiscoveryAcmpApplication [restartedMain] Running with Spring Boot v2.7.3, Spring v5.3.22
+2024-08-13 10:27:58,383 INFO c.a.d.DiscoveryAcmpApplication [restartedMain] The following 1 profile is active: "uat"
+2024-08-13 10:28:08,677 INFO c.a.d.DiscoveryAcmpApplication [restartedMain] Started DiscoveryAcmpApplication in 12.252 seconds (JVM running for 14.17)
+2024-08-20 12:21:33,072 INFO c.a.d.DiscoveryAcmpApplication [restartedMain] Starting DiscoveryAcmpApplication using Java 11.0.14 on DESKTOP-TQTSV5G with PID 13220 (D:\Work\Altruist\Unified\discovery-acmp\target\classes started by Rajesh in D:\Work\Altruist\Unified\discovery-acmp)
+2024-08-20 12:21:33,103 DEBUG c.a.d.DiscoveryAcmpApplication [restartedMain] Running with Spring Boot v2.7.3, Spring v5.3.22
+2024-08-20 12:21:33,105 INFO c.a.d.DiscoveryAcmpApplication [restartedMain] The following 1 profile is active: "uat"
+2024-08-20 12:21:43,503 INFO c.a.d.DiscoveryAcmpApplication [restartedMain] Started DiscoveryAcmpApplication in 12.39 seconds (JVM running for 14.801)
+2024-08-31 13:24:42,390 INFO c.a.d.DiscoveryAcmpApplication [restartedMain] Starting DiscoveryAcmpApplication using Java 11.0.14 on DESKTOP-TQTSV5G with PID 12904 (D:\Work\Altruist\Unified\discovery-acmp\target\classes started by Rajesh in D:\Work\Altruist\Unified\discovery-acmp)
+2024-08-31 13:24:42,402 DEBUG c.a.d.DiscoveryAcmpApplication [restartedMain] Running with Spring Boot v2.7.3, Spring v5.3.22
+2024-08-31 13:24:42,403 INFO c.a.d.DiscoveryAcmpApplication [restartedMain] The following 1 profile is active: "uat"
+2024-08-31 13:24:55,603 INFO c.a.d.DiscoveryAcmpApplication [restartedMain] Started DiscoveryAcmpApplication in 15.901 seconds (JVM running for 18.116)
+2024-08-31 13:33:20,717 INFO c.a.d.DiscoveryAcmpApplication [restartedMain] Starting DiscoveryAcmpApplication using Java 11.0.14 on DESKTOP-TQTSV5G with PID 13500 (D:\Work\Altruist\Unified\discovery-acmp\target\classes started by Rajesh in D:\Work\Altruist\Unified\discovery-acmp)
+2024-08-31 13:33:20,745 DEBUG c.a.d.DiscoveryAcmpApplication [restartedMain] Running with Spring Boot v2.7.3, Spring v5.3.22
+2024-08-31 13:33:20,747 INFO c.a.d.DiscoveryAcmpApplication [restartedMain] The following 1 profile is active: "uat"
+2024-08-31 13:33:33,349 INFO c.a.d.DiscoveryAcmpApplication [restartedMain] Started DiscoveryAcmpApplication in 15.196 seconds (JVM running for 16.932)
+2024-09-16 16:48:37,027 INFO c.a.d.DiscoveryAcmpApplication [restartedMain] Starting DiscoveryAcmpApplication using Java 11.0.14 on DESKTOP-TQTSV5G with PID 1344 (D:\Work\Altruist\Unified\discovery-acmp\target\classes started by Rajesh in D:\Work\Altruist\Unified\discovery-acmp)
+2024-09-16 16:48:37,050 DEBUG c.a.d.DiscoveryAcmpApplication [restartedMain] Running with Spring Boot v2.7.3, Spring v5.3.22
+2024-09-16 16:48:37,052 INFO c.a.d.DiscoveryAcmpApplication [restartedMain] The following 1 profile is active: "uat"
+2024-09-16 16:48:47,492 INFO c.a.d.DiscoveryAcmpApplication [restartedMain] Started DiscoveryAcmpApplication in 12.031 seconds (JVM running for 14.378)
